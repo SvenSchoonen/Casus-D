@@ -1,0 +1,8 @@
+# dataset.yaml
+
+train: /homes/sschoonen/Desktop/Casus_D/dataset/images/train  # Pad naar de train afbeeldingen
+val: /homes/sschoonen/Desktop/Casus_D/dataset/images/val      # Pad naar de val afbeeldingen
+
+nc: 1  # aantal klassen
+
+names: ['tumor']  # lijst van klasse-namen
