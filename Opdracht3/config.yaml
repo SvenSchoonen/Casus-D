@@ -1,0 +1,15 @@
+paths:
+  complete_images: "/homes/sschoonen/Desktop/Casus_D/all_data/complete_images/"
+  idc_regular: "/homes/sschoonen/Desktop/Casus_D/all_data/idc_regular/"
+  coords_file: "/homes/sschoonen/Desktop/Casus_D/all_data/coords-idc.txt"
+  dataset_dir: "/homes/sschoonen/Desktop/Casus_D/dataset/"
+  test_image: "/homes/sschoonen/Desktop/Casus_D/images/10254"
+
+yolov8_model: "yolov8n.pt"
+dataset_yaml_path: "dataset.yaml"
+output_model_path: "/homes/sschoonen/Desktop/Casus_D/Opdracht3/Output/"  # Correct path to the model
+train_config:
+  epochs: 5
+  single_cls: true
+  batch_size: 16
+  imgsz: 640

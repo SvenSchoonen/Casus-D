@@ -1,0 +1,32 @@
+# Directory paths for datasets and images
+complete_images: "all_data/complete_images/"
+idc_regular: "all_data/idc_regular/"
+coords_file: "all_data/coords-idc.txt"
+dataset_dir: "dataset/"
+test_image: "images/"
+image_dir: "images/"
+image_idc: "idc/"  
+
+yolov8_model: "yolov8n.pt"
+
+dataset_yaml_path: "dataset.yaml"
+
+output_model_path: "Opdracht3/Output/"
+
+# Sampling Config
+sample_percentage: 0.1  # 10% sample
+
+# Data Split Config
+test_size: 0.2  # 80% train, 20% test
+
+
+train_config:
+  epochs: 5
+  single_cls: true  # Set to true if you have only one class
+  batch_size: 16  # Number of samples per batch during training
+  imgsz: 640  # Image size for training (640x640)
+
+# Image preprocessing configuration (add target_size here)
+target_size:
+  width: 256  # Set the target width for resizing
+  height: 256  # Set the target height for resizing
